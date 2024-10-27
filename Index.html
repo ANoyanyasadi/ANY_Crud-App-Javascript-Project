@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP HTML CSS Javascript PROJECT</title>
+
+    <!--! CSS LINK -->
+     <link rel="stylesheet" href="./style/style.css">
+
+    <!--! FONTAWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--! CONTAINER COVERS ALL BELOW CLASSES, THIS IS A MAIN MOTHER CLASS-->
+
+     <div class="container">
+        <form class="form-wrapper">
+            <p class="alert"></p>
+            <h2>Crud App</h2>
+            <div class="input-container">
+                <input type="text" placeholder="Enter New Item..." id="input">
+                <button type="submit" class="submit-btn">Ekle</button>
+            </div>
+        </form>
+
+        <!--! ELEMENTS -->
+
+         <div class="items-wrapper">
+            <div class="item-list">
+               <!-- ! <div class="items-list-item">
+                    <p class="item-name">İtem</p>
+                    <div class="btn-container">
+                        <button class="edit-btn"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div> --> 
+
+            </div>
+
+         </div>
+
+         <!--! RESET BUTTON -->
+          <button class="clear-btn">Clear List</button>
+     </div>
+
+    <!--! JS SCRIPT LINK -->
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
