@@ -4,20 +4,20 @@
 
 
 
-# Crud App Clone Project, you can add, delete, revise details. 
+ Crud App Clone Project, you can add, delete, revise details. 
 
 
 
 
 
 
-# Used Technologies:
+ Used Technologies:
 
-# • HTML5, 
+ • HTML5, 
 
-# • CSS,
+ • CSS,
 
-# • JAVASCRIPT
+ • JAVASCRIPT
 
 
 
